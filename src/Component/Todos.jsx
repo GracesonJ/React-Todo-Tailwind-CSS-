@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-
-
+// import index.css
 function Todos() {
     const [tasks, setTasks]= useState([])
     const [task, setTask]= useState("")
