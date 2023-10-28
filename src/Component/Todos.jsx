@@ -43,7 +43,7 @@ function Todos() {
                   </ul>
                 ):(
                   <div>
-                    <p>No Task Found</p>
+                    <p className='text-4xl m-16 font-bold'>No Task Found</p>
                   </div>
                 )}
             </div>
