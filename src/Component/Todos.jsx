@@ -18,12 +18,12 @@ function Todos() {
     }
   return (
     <>
-        <div className="flex flex-col items-center bg-blue-200">
+        <div className="flex flex-col items-center bg-blue-200 w-1/2 h-screen">
             <h1 className='text-4xl m-16 font-bold'>Todo List</h1>
             <div className="">
                 <input className='bg-slate-200 rounded-md p-3 m-3' 
                 type="text" 
-                placeholder="Add Todo"
+                placeholder="Add Todos"
                 value={task}
                 onChange={(e)=>{
                   setTask(e.target.value)
