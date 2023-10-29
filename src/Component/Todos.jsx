@@ -17,8 +17,9 @@ function Todos() {
     }
   return (
     <>
-        <div className="flex flex-col items-center bg-blue-200">
-            <h1 className='text-4xl m-16 font-bold'>Todo List</h1>
+      <div >
+      <div className="flex flex-col items-center bg-blue-200 min-h-screen min-w-fitmin-w-fit">
+            <h1 className='text-5xl m-16 font-bold'>Todo List</h1>
             <div className="">
                 <input className='bg-slate-200 rounded-md p-3 m-3' 
                 type="text" 
@@ -43,11 +44,13 @@ function Todos() {
                   </ul>
                 ):(
                   <div>
-                    <p className='text-4xl m-16 font-bold'>No Task Found</p>
+                    <p className='text-xl m-16 font-bold'>No Task Found</p>
                   </div>
                 )}
             </div>
         </div>
+      </div>
+        
     </>
   )
 }
