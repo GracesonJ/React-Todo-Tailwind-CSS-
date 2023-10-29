@@ -17,7 +17,7 @@ function Todos() {
     }
   return (
     <>
-      <div >
+      <div className='sm:p-5 md:py-1 md:px-1'>
       <div className="flex flex-col items-center bg-blue-200 min-h-screen min-w-fitmin-w-fit">
             <h1 className='text-5xl m-16 font-bold'>Todo List</h1>
             <div className="">
