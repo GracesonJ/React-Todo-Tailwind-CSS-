@@ -1,9 +1,9 @@
 import './App.css';
-import Todos from './Component/Todos';
+import TodoWrapper from './Components/TodoWrapper';
 function App() {
   return (
-    <Todos/>
-  )
+    <TodoWrapper/>
+    )
 }
 
 export default App;
